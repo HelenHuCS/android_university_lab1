@@ -25,9 +25,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class NYTimesApiClient {
 
     // TODO: Replace the below API key with your own generated key
-    private static final String API_KEY = "<YOUR-API-KEY-GOES-HERE>";
+    private static final String API_KEY = "<d6YpLwkKw7Px7JYdtX03DfELntARcyOq>";
     private NYTimesService nyTimesService;
-
     public NYTimesApiClient() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.nytimes.com")
